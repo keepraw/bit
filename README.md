@@ -34,4 +34,4 @@ curl -O https://raw.githubusercontent.com/keepraw/bit.sh && chmod +x bit.sh && .
 - 停止服务：`docker-compose down`
 - 更新服务：`docker-compose pull && docker-compose up -d`
 - 手动执行备份：`/root/.config/sh/backup.sh`
-- 查看远程备份：`rclone ls bitwarden:d:data/bitwarden` 
+- 查看远程备份：`rclone ls d:data/bitwarden` 
