@@ -15,7 +15,7 @@
 2. 运行脚本：
 ###
 ```bash
-curl -O https://raw.githubusercontent.com/your-repo/bit.sh && chmod +x bit.sh && ./bit.sh
+curl -O https://raw.githubusercontent.com/keepraw/bit.sh && chmod +x bit.sh && ./bit.sh
 ```
 3. 按照提示输入域名和邮箱地址。
 
