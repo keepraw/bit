@@ -29,16 +29,9 @@ Docker 尚未安装时，脚本会通过 Docker 官方软件源安装 Docker Eng
 
 上传脚本到服务器，例如：
 
-```bash
-scp Bitwarden.sh root@服务器IP:/root/Bitwarden.sh
-```
-
-登录服务器后执行：
-
-```bash
-chmod +x /root/Bitwarden.sh
-bash /root/Bitwarden.sh
-```
+curl -fsSL https://raw.githubusercontent.com/keepraw/bit/main/Bitwarden.sh -o /root/Bitwarden.sh \
+  && chmod 700 /root/Bitwarden.sh \
+  && /root/Bitwarden.sh
 
 脚本会询问：
 
